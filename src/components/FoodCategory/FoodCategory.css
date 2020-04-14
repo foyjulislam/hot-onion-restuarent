@@ -1,0 +1,43 @@
+.category-area{
+    padding-top: 30px;
+
+}
+.break-lunch-dinner{
+    list-style-type: none;
+}
+.break-lunch-dinner li{
+    margin-right:10px ;
+}
+.break-lunch-dinner li .btn{
+    width: 100px;
+}
+.category-product {
+    transition: .5s;
+    cursor: pointer;
+    margin-bottom: 30px;
+    border-radius: 5px;
+  }
+  
+.category-product:hover {
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+  }
+  
+.card{
+    border: none;
+}
+  
+.card-body {
+    padding-bottom: 0;
+}
+.all-product{
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    
+}
+.all-product:hover{
+    border-bottom: 3px solid #f00e3f;
+}
+.checkout-btn{
+  
+}

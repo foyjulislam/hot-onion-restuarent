@@ -1,0 +1,27 @@
+.banner {
+    background-image: url(../../images/bannerbackground.png);
+    background-position: center center;
+    background-size: cover;
+    height: 500px;
+  }
+  .banner-content {
+      padding-top: 170px;
+  }
+  .banner-content h2{
+      font-size: 36px;
+      padding-bottom: 15px;
+  }
+  .banner-input input {
+      padding: 10px 30px;
+      border-radius: 30px;
+      border: none;
+      width: 65%;
+  }
+  
+  .banner-input .banner-search-btn{
+      padding: 9px 40px;
+      margin-left: -35px;
+      margin-bottom: 4px;
+      border-radius: 20px;
+      background-color: #e74367;
+  }

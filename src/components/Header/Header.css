@@ -1,0 +1,17 @@
+.logo-aria img{
+    width: 35%;
+    padding:20px;
+	
+}
+.header-right div.d-flex {
+	flex-flow: row-reverse;
+}
+.header-right div.d-flex button {
+	margin: 15px;
+}
+.signup-btn:hover {
+	color: #fff;
+}
+.cart-icon{
+	font-size: 24px;
+}
