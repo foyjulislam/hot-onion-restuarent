@@ -7,7 +7,6 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 import FoodDetail from './components/FoodDetail/FoodDetail';
 import StoreFood from './components/StoreFood/StoreFood';

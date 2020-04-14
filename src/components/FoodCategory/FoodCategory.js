@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './FoodCategory.css';
-import fakeData from '../../fakeData/fakeData';
+import data from '../../fakeData/fakeData'
 import SingleFood from '../SingleFood/SingleFood';
 import { withRouter } from 'react-router-dom';
 
@@ -21,7 +21,7 @@ const FoodCategory = (props) => {
     const [foodItems, setFoodItems] = useState([])
     
     useEffect(() => {
-        const productData = fakeData.filter(itemPd => itemPd.category === categoryItem)
+        const productData = data.filter(itemPd => itemPd.category === categoryItem)
         setFoodItems(productData);
     }, [categoryItem])
     console.log(foodItems);
